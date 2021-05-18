@@ -1,6 +1,0 @@
-<apex:page showHeader="false" sidebar="false" controller="DynamicLabels" 
-           language="{!language}" standardStylesheets="false" contentType="application/json">
-    <apex:repeat value="{!labels}" var="label">
-        {!$Label[label]}
-    </apex:repeat>
-</apex:page>
