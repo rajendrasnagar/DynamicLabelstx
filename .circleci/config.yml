@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      # A special step used to check out source code to the configured path (defaults to the working_directory). The reason this is a special step is because it is more of a helper function designed to make checking out code easy for you. If you require doing git over HTTPS you should not use this step as it configures git to checkout over ssh.
+      # A special step used to check out source code to the configured path (defaults to the working_directory). The reason this is a special step is because it is more of a helper function designed to make checking out code easy for you. If you require doing git over HTTPS you should not use this step as it configures git to checkout over ssh. 
       - run:
           name: Install Dependencies
           command: . build/install.sh
