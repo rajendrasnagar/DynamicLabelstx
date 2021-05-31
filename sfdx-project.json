@@ -5,7 +5,7 @@
       "default": false
     },
     {
-      "path": "DynamicLabels",
+      "path": "DynamicLabels", 
       "default": true
     }
   ],
